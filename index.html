@@ -16,7 +16,7 @@
 <body>
 
     <!-- Start of Navigation Bar -->
-    <nav class="navbar bg-body-secondary container-fluid">
+    <nav class="navbar bg-body-secondary container-fluid fixed-top">
         <!-- Logo -->
         <div class="d-flex align-items-bottom align-items-md-top">
             <img src="./assets/logo.jpg" alt="logo" width="50" height="50">
@@ -30,11 +30,10 @@
                 <i class="bi bi-list"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="#">Home</a></li>
-                <li><a class="dropdown-item" href="#">About Us</a></li>
-                <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                <li><a class="dropdown-item" href="#">Contact US</a></li>
-                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                <li><a class="dropdown-item" href="#home">Home</a></li>
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>
             </ul>
         </div>
 
@@ -42,7 +41,7 @@
     <!-- End of Navigation Bar -->
 
     <!-- Start Home -->
-    <section class="home my-5">
+    <section class="home py-5 mt-5" id="home">
         <div class="container-fluid">
             <!-- Start of Intro Row -->
             <div class="row">
@@ -56,7 +55,7 @@
                 <div class="col-md-6">
                     <div class="home-text">
                         <p class="text-muted fs-5 mt-5">
-                            Hello 😎
+                            Hi 👋 I'm
                         </p>
                         <h1 class="text-danger-emphasis fw-bolder">
                             Vignesh Murugan
@@ -64,7 +63,7 @@
                         <h2>
                             Full Stack Web Developer
                         </h2>
-                        <p>Electrical Engineer turned into Web Developer due to passion. Highly motivated individual, I will transform your ideas into websites and web applications. Talks about Web, Travel, Blockchain.
+                        <p>
                         </p>
                         <button class="btn btn-outline-danger">
                             My Portfolio
@@ -78,7 +77,7 @@
     <!-- End Home -->
 
     <!-- Start of About Me Row -->
-    <section class="about bg-light py-5">
+    <section class="about bg-light py-5" id="about">
         <div class="container-fluid">
             <!-- About me heading -->
             <div class="row justify-content-center mb-5">
@@ -95,21 +94,17 @@
                 <div class="col-md-6">
                     <div class="about-text">
                         <h3>Vignesh Murugan</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam adipisci dolore quaerat inventore excepturi dignissimos cupiditate mollitia perferendis eius, hic quibusdam aperiam a recusandae blanditiis temporibus! Atque officiis quisquam corrupti!</p>
+                        <p>Electrical Engineer turned into Web Developer by passion. I will transform your ideas into websites and web applications. Talks about Web, Travel, Blockchain.</p>
                     </div>
                     <!-- Fact row start -->
                     <div class="row text-center">
                         <div class="col-md-4">
-                            <h4 class="fs-1 fw-bold">200</h4>
+                            <h4 class="fs-1 fw-bold">3+</h4>
                             <p>Projects</p>
                         </div>
                         <div class="col-md-4">
-                            <h4 class="fs-1 fw-bold">50</h4>
-                            <p>Happy Clients</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h4 class="fs-1 fw-bold">100</h4>
-                            <p>Positive Review</p>
+                            <h4 class="fs-1 fw-bold">4</h4>
+                            <p>Months of real-world experience</p>
                         </div>
                     </div>
                     <!-- Fact row end -->
@@ -130,9 +125,6 @@
                                     <a href="https://github.com/webdev-vignesh" target="_blank" class="text-danger fs-5"><i class="bi bi-github"></i></a>
                                 </div>
                                 <div class="col-sm-2">
-                                    <a href="https://twitter.com/Web3Vicky" target="_blank" class="text-danger fs-5"><i class="bi bi-twitter"></i></a>
-                                </div>
-                                <div class="col-sm-2">
                                     <a href="mailto:vigmurug@gmail.com" target="_blank" class="text-danger fs-5"><i class="bi bi-envelope"></i></a>
                                 </div>
                             </div>
@@ -144,21 +136,21 @@
                 <!-- Column content end -->
                 <div class="col-md-6">
                     <div class="skill-item m-4">
-                        <h6>HTML</h6>
+                        <h6>Full Stack MERN Development</h6>
                         <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 90%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 75%"></div>
                           </div>
                     </div>
                     <div class="skill-item m-4">
-                        <h6>CSS</h6>
-                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <h6>Front End Web Development</h6>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                             <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
                           </div>
                     </div>
                     <div class="skill-item m-4">
-                        <h6>JavaScript</h6>
+                        <h6>Backend Development</h6>
                         <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 70%"></div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 75%"></div>
                           </div>
                     </div>
 
@@ -197,7 +189,7 @@
                         </div>
                         <!-- Service heading start -->
                         <h5 class="fw-bolder text-center">
-                            Web Dev
+                            Website Development
                         </h5>
                         <!-- Service heading end -->
     
@@ -217,7 +209,7 @@
                         </div>
                         <!-- Service heading start -->
                         <h5 class="fw-bolder text-center">
-                            App Dev
+                            Web Applications
                         </h5>
                         <!-- Service heading end -->
     
@@ -254,7 +246,7 @@
     <!-- End of Services Row -->
 
     <!-- Start of Portfolio Row -->
-    <section class="portfolio py-5">
+    <section class="portfolio bg-light py-5"  id="portfolio">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <!-- Portfolio Title -->
@@ -305,20 +297,197 @@
             </div>
         </div>
     </section>
+    <!-- End of Portfolio Row -->
 
     <!-- Start of Hire me Row -->
     <section class="freelance-hire py-4 text-bg-danger">
         <div class="container-fluid py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h5 class="mb-4">Got some ideas?</h5>
-                    <h1 class="mb-4">I'm Available for freelance projects</h1>
+                    <h5 class="mb-4">Let's talk?</h5>
+                    <h1 class="mb-4">I'm Available to work</h1>
                     <button class="btn btn-outline-light">Hire me</button>
                 </div>
             </div>
         </div>
     </section>
     <!-- End of Hire me Row -->
+
+    <!-- Start of Testimonial Row -->
+    <section class="testimonial bg-light py-5">
+        <div class="container-fluid">
+
+            <!-- Testimonial Title -->
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <section class="text-center">
+                        <h2 class="fw-bolder text-center">Testimonials</h2>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Testimonial Carousel -->
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8 col-xl-7 my-3">
+                    <!-- Carousel start -->
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger" aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            
+                            <!-- Start of testimonial item 1 -->
+                            <div class="testimonial-item carousel-item active p-4 bg-white shadow-2-strong rounded">
+                                <div class="testimonial-author-info d-flex align-items-center">
+                                    <img src="https://via.placeholder.com/45" class="rounded-circle img-thumbnail">
+                                    <div class="author ms-2">
+                                        <h5 class="mb-1">Shiva</h5>
+                                        <p class="text-muted">Web Developer</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint minus eum magni optio sed eaque necessitatibus, cum beatae aliquam? Nam eaque voluptatum doloremque qui voluptatibus deserunt iste facilis magni.</p>
+
+                                <div class="rating text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <!-- End of testimonial item 1 -->
+
+                            <!-- Start of testimonial item 2 -->
+                            <div class="testimonial-item carousel-item active p-4 bg-white shadow-2-strong rounded">
+                                <div class="testimonial-author-info d-flex align-items-center">
+                                    <img src="https://via.placeholder.com/45" class="rounded-circle img-thumbnail">
+                                    <div class="author ms-2">
+                                        <h5 class="mb-1">Ganesh</h5>
+                                        <p class="text-muted">Business Owner</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint minus eum magni optio sed eaque necessitatibus, cum beatae aliquam? Nam eaque voluptatum doloremque qui voluptatibus deserunt iste facilis magni.</p>
+
+                                <div class="rating text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <!-- End of testimonial item 2 -->
+
+                            <!-- Start of testimonial item 3  -->
+                            <div class="testimonial-item carousel-item active p-4 bg-white shadow-2-strong rounded">
+                                <div class="testimonial-author-info d-flex align-items-center">
+                                    <img src="https://via.placeholder.com/45" class="rounded-circle img-thumbnail">
+                                    <div class="author ms-2">
+                                        <h5 class="mb-1">Karthik</h5>
+                                        <p class="text-muted">Web Designer</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted m-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint minus eum magni optio sed eaque necessitatibus, cum beatae aliquam? Nam eaque voluptatum doloremque qui voluptatibus deserunt iste facilis magni.</p>
+
+                                <div class="rating text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                            <!-- End of testimonial item 3 -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Carousel end -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start of Testimonial Row -->
+
+    <!-- Start of connect with me Row -->
+    <section class="contact py-4" id="contact">
+        <div class="container-lg">
+            <!-- Section Title -->
+            <div class="row justify-content-center">
+                <!-- Connect with me title -->
+                <div class="col-8 py-4">
+                    <section class="text-center">
+                        <h2 class="fw-bolder">Connect with me</h2>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Section Body -->
+            <div class="row py-4">
+
+                <!-- Left contact seesion -->
+                <div class="col-md-5">
+
+                    <!-- Contact item 1 -->
+                    <div class="contact-items d-flex">
+                        <div class="icon text-danger fs-5">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h4 class="fw-bold text-danger">Phone No.</h4>
+                            <p class="text-muted">+91-9092094930</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact item 2 -->
+                    <div class="contact-items d-flex">
+                        <div class="icon text-danger fs-5">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h4 class="fw-bold text-danger">Email</h4>
+                            <p class="text-muted">vigmurug@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right contact seesion -->
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <input type="text" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Your Name" />
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <input type="email" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Your email" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <input type="text" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Subject" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <textarea name="Message" class="form-control p-2 border-1 fs-6" cols="30" rows="5" placeholder="Enter your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <button type="button" class="btn btn-outline-danger">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of connect with me Row -->
 
     <!-- Start Footer Row -->
     <section class="footer bg-light py-5">
@@ -329,7 +498,7 @@
                 <!-- Branding col 1 -->
                 <div class="col-lg-4 text-center">
                     <a href="#">
-                        <img src="./assets/logo1.jpg" alt="logo" height="35">
+                        <img src="./assets/logo.jpg" alt="logo" height="35">
                     </a>
                     <p class="fw-bolder text-danger">VIGNESH MURUGAN</p>
                 </div>
@@ -338,9 +507,9 @@
                     <h3 class="fw-bolder text-danger">Quick Links</h3>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-decoration-none text-muted">Home</a></li>
-                        <li><a href="#" class="text-decoration-none text-muted">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">About</a></li>
                         <li><a href="#" class="text-decoration-none text-muted">Hire Me</a></li>
-                        <li><a href="#" class="text-decoration-none text-muted">Contact Us</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Contact</a></li>
                     </ul>
                 </div>
 
@@ -350,7 +519,6 @@
                     <div class="social-links text-center">
                         <a href="https://www.linkedin.com/in/vignesh-murugan-339260152/" target="_blank" class="text-decoration-none text-danger fs-5 me-2"><i class="bi bi-linkedin"></i></a>
                         <a href="https://github.com/webdev-vignesh" target="_blank" class="text-decoration-none text-danger fs-5 me-2"><i class="bi bi-github"></i></a>
-                        <a href="https://twitter.com/Web3Vicky" target="_blank" class="text-decoration-none text-danger fs-5 me-2"><i class="bi bi-twitter"></i></a>
                         <a href="mailto:vigmurug@gmail.com" target="_blank" class="text-danger fs-5 me-2"><i class="bi bi-envelope"></i></a>
                     </div>
                 </div>
